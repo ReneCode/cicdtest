@@ -5,8 +5,8 @@ var minimist = require('minimist');
 var fs = require('fs');
 
 var knownOptions = {
-	string: 'packageName',
-	string: 'packagePath',
+	string1: 'packageName',
+	string2: 'packagePath',
 	default: {packageName: "Package.zip", packagePath: path.join(__dirname, '_package')}
 }
 
