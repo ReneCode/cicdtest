@@ -21,6 +21,7 @@
     "serve-static": "^1.11.1"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "mocha": "^3.0.2"
   }
 }
