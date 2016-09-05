@@ -32,9 +32,6 @@ gulp.task('default', function () {
 		packagePaths.push(excludePattern1);
 		packagePaths.push(excludePattern2);
 	}
-	
-	console.log(options.packageName);
-	console.log(options.packagePath);
 
     return gulp.src(packagePaths)
         .pipe(zip(options.packageName))
