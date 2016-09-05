@@ -1,0 +1,17 @@
+
+extends layout
+
+block content
+	.navbar.navbar-default
+		.container-fluid
+			a.navbar-brand(href="#") CI CD
+
+	.container
+		.row
+			nav 
+				form#searchform
+					.btn.group
+						input#searchinput(type="text")
+						button.btn.btn-primary#searchbutton(type="submit") Ok
+		
+	script(src="javascript/main.js")
