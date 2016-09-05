@@ -6,7 +6,7 @@
   "scripts": {
     "docker-build": "docker build -t relang/cicdtest .",
     "test": "mocha test",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
